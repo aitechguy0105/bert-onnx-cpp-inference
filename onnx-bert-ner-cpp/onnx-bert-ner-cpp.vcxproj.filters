@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\unilib">
+      <UniqueIdentifier>{d8c94bfc-0f89-41a6-b5e5-f18f37d0c846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\unilib">
+      <UniqueIdentifier>{bdd376fb-4cfc-4e8b-bf23-b7d344d9a77d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="onnx-bert-ner-cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\tokenizer.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\unicode.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\uninorms.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\unistrip.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\utf8.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\utf16.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+    <ClCompile Include="unilib\version.cpp">
+      <Filter>Source Files\unilib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="unilib\tokenizer.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+    <ClInclude Include="unilib\unicode.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+    <ClInclude Include="unilib\uninorms.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+    <ClInclude Include="unilib\unistrip.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+    <ClInclude Include="unilib\utf8.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+    <ClInclude Include="unilib\utf16.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+    <ClInclude Include="unilib\version.h">
+      <Filter>Header Files\unilib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
